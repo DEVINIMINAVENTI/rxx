@@ -1,0 +1,1419 @@
+*{
+    margin: auto;
+}
+nav{
+    
+    background-color:  white;
+    display: flex;
+    height: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+.navbar li a{
+    padding: 7px;
+    text-decoration: none;
+    color: rgb(138, 133, 133);
+    font-size: 20px;
+    line-height: 80px;
+    letter-spacing: 0.1em;
+    
+}
+.navbar li a:hover{
+    border-top: 2px solid red;
+    color: rgba(0, 0, 255, 0.452);
+    border-bottom: 2px solid red;
+}
+.nav-toggler{
+    height: 34px;
+    width: 44px;
+    background-color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    position: fixed;
+    top: -1px;
+    right: 5px;
+    border: none;
+    display: none;
+}
+.nav-toggler:focus{
+    outline: none;
+    box-shadow: 0 0 15px rgba(red, green, blue, alpha);
+}
+.nav-toggler span{
+    height: 2px;
+    width: 20px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+.nav-toggler span::before,
+.nav-toggler span::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.nav-toggler span::before{
+    transform: translateY(-6px);
+}
+.nav-toggler span::after{
+    transform: translateY(6px);   
+}
+
+
+
+
+
+
+.space{
+    width: auto;
+    height: 80px;
+}
+
+
+.first{
+    width: auto;
+    height: 500px;
+    background-color: whitesmoke;
+ 
+}
+.first ul{
+    list-style: none;
+    display: flex;
+}
+.first ul li{
+    width: 600px;
+    height: auto;
+}
+.left ul{
+    display: inline-block;
+    list-style: none;
+    height: 500px;
+}
+.left ul li{
+    width: 500px;
+    line-height: 70px;
+}
+.left ul li a{
+    color: rgb(31, 31, 164);
+    font-family: cursive;
+    text-decoration: none;
+    padding: 11px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin: 15px;
+}
+.left ul li h1{
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(89, 92, 98);
+    padding: 15px;
+}
+.standingpic{
+    width: 450px;
+    height: 500px;
+}
+
+
+.roll{
+    width: auto;
+    height: 500px;
+}
+.rolla{
+    width: 100%;
+    height: 500px;
+}
+
+
+
+.second{
+    display: block;
+    text-align: center;
+    width: auto;
+    height: 650px;
+    background-color: orange;
+}
+.second h1{
+    font-size: 50px;
+    color: rgb(80, 80, 113);
+    padding: 20px;
+    padding-top: 15px;
+}
+
+.second p{
+    font-size: 20px;
+    color: rgb(80, 80, 113);
+    padding: 20px;
+    padding-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.second ul{
+    width: 1150px;
+    display: flex;
+    list-style: none;
+}
+.second ul li{
+    width: 350px;
+    height: 150px;
+    border-radius: 6px;
+    background-color: whitesmoke;
+}
+.second ul li h1{
+    font-size: 25px;
+    color: rgb(80, 80, 113);
+    padding: 20px;
+    padding-top: 15px;
+    border-bottom: 2px solid white;
+    text-align: left;
+}
+.second ul li p{
+    font-size: 20px;
+    color: rgb(80, 80, 113);
+    padding: 20px;
+    padding-top: 15px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+.third{
+    width: auto;
+    height: 600px;
+    background-color: whitesmoke;
+}
+.third ul{
+    width: auto;
+    list-style: none;
+    text-align: center;
+    display: flex;
+}
+.firstli{
+    width: 600px;
+    height: auto;
+}
+.firstli ul{
+    display: block;
+}
+.firstli ul li p{
+    font-size: 18px;
+    padding: 5px;
+    word-spacing: 5px;
+    color: rgb(80, 80, 113);
+}
+.firstli ul li h1{
+    font-size: 50px;
+    padding: 15px;
+    color: rgb(80, 80, 113);
+}
+.firstli ul li a{
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(31, 31, 164);
+    text-decoration: none;
+    border-radius: 9px;
+    border: 1px solid rgb(31, 31, 164);
+    color: rgb(80, 80, 113);
+}
+.videogif{
+    width: 400px;
+    height: fit-content;
+}
+
+
+
+
+
+.fourth{
+    width: auto;
+    height: 300px;
+    background-color: white;
+}
+.fourth ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+}
+.headei{
+    padding-top: 50px;
+}
+.fourth ul li h1{
+    font-size: 50px;
+    font-family: cursive;
+    color: rgb(80, 80, 113);
+}
+.social {
+    display: flex;
+    width: 250px;
+}
+.socialpic{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+}
+.footer{
+    width: auto;
+    height: 100px;
+    background-color: #2d2d2d;
+    text-align: center;
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul li a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid blue;
+    padding: 15px;
+    border-radius: 15px;
+    position: relative;
+    top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*WATCH OUT FOR THE END*/
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1150px) {
+    .first ul li{
+        width: 400px;
+        height: auto;
+    } 
+.standingpic{
+    width: 350px;
+}
+.second ul{
+    width: 950px;
+
+    display: flex;
+    list-style: none;
+}
+.second ul li{
+    width: 300px;
+    height: 150px;
+    border-radius: 6px;
+    background-color: whitesmoke;
+}
+.second ul li h1{
+    font-size: 22px;
+    color: rgb(80, 80, 113);
+    padding: 20px;
+    padding-top: 15px;
+    border-bottom: 2px solid white;
+    text-align: left;
+}
+.second ul li p{
+    font-size: 15px;
+    color: rgb(80, 80, 113);
+    padding: 20px;
+    padding-top: 15px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+.firstli{
+    width: 400px;
+    height: auto;
+}
+.videogif{
+    width: 400px;
+    height: 500px;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 1100px) {
+  
+
+
+
+    .first ul li{
+        width: 400px;
+        height: auto;
+    } 
+.standingpic{
+    width: 350px;
+}
+.second ul{
+    width: 950px;
+
+    display: flex;
+    list-style: none;
+}
+.second ul li{
+    width: 300px;
+    height: 150px;
+    border-radius: 6px;
+    background-color: whitesmoke;
+}
+.second ul li h1{
+    font-size: 22px;
+    color: rgb(80, 80, 113);
+    padding: 20px;
+    padding-top: 15px;
+    border-bottom: 2px solid white;
+    text-align: left;
+}
+.second ul li p{
+    font-size: 15px;
+    color: rgb(80, 80, 113);
+    padding: 20px;
+    padding-top: 15px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+.firstli{
+    width: 400px;
+    height: auto;
+}
+.videogif{
+    width: 400px;
+    height: 500px;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+} 
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 980px) {
+    
+  
+    .second ul{
+        width: 850px;
+        display: flex;
+        list-style: none;
+    }
+    .second ul li{
+        width: 250px;
+        height: 150px;
+        border-radius: 6px;
+        background-color: whitesmoke;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 912px) {
+   .log{
+    display: flex;
+    position: relative;
+    top: 15px;
+   }
+   nav{
+    display: block;
+    height: fit-content;
+   }
+   nav ul{
+    width: 100%;
+   }
+    .nav-toggler{
+        display: block;
+        position: relative;
+       float: right;
+    }
+    .navbar{
+        width: 100%;
+        position: relative;
+        top: 10px;
+        left: -20px;
+        display: block;
+        text-align: left;
+        background-color: #fff;
+        transition: all .5s;
+    }
+   
+    .navbar li a{
+        padding: 15px;
+        text-decoration: none;
+        color: rgb(138, 133, 133);
+        font-size: 20px;
+        letter-spacing: 0.1em;
+        line-height: 50px;
+        
+        width: auto;
+    }
+    .closenav{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 900px) {
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+
+    .first ul li{
+        padding-top: 20px;
+        width: 300px;
+        height: 350px;
+    }
+    .left ul li h1{
+        font-size: 30px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(89, 92, 98);
+        padding: 5px;
+    }
+    .standingpic{
+        padding-top: 20px;
+        height: 450px;
+        width: 300px;
+    }
+    .second ul{
+        background-color: none;
+        width: auto;
+        position: relative;
+        left: -20px;
+    }
+    .second ul li{
+        width: 230px;
+        height: 150px;
+        border-radius: 6px;
+        background-color: whitesmoke;
+    }
+    .second ul li p{
+        font-size: 14px;
+        color: rgb(80, 80, 113);
+        padding: 20px;
+        padding-top: 2px;
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .firstli{
+        width: 300px;
+        height: auto;
+    }
+    .videogif{
+        width: 350px;
+        height: 500px;
+    }
+    
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 760px) {
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 720px) {
+    
+
+
+    .second ul li{
+        width: 200px;
+        height: 150px;
+        border-radius: 6px;
+        background-color: whitesmoke;
+    }
+    .second ul li h1{
+        font-size: 18px;
+        color: rgb(80, 80, 113);
+        padding: 20px;
+        padding-top: 15px;
+        border-bottom: 2px solid white;
+        text-align: left;
+    }
+    .second ul li p{
+        font-size: 12px;
+        color: rgb(80, 80, 113);
+        padding: 20px;
+        padding-top: 2px;
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .videogif{
+        width: 300px;
+        height: 500px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .logo{
+    position: relative;
+    left: -150px;
+  }
+  .space{
+    height: 10px;
+  } 
+  nav{
+    position: relative;
+    width: auto;
+    
+  } 
+  nav ul{
+    width: auto;
+  }
+.first ul{
+    display: block;
+    height: auto;
+}
+.first{
+    height: 780px;
+}
+
+.first ul li{
+    position: relative;
+    left: -20px;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+}
+.second{
+    height: auto;
+}
+.second ul{
+    display: block;
+    height: fit-content;
+}
+.second ul li{
+    width: auto;
+
+}
+.second ul li p{
+    font-size: 20px;
+    color: rgb(80, 80, 113);
+    padding: 20px;
+    padding-top: 15px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+.second ul li h1{
+    font-size: 25px;
+    color: rgb(80, 80, 113);
+    padding: 20px;
+    padding-top: 15px;
+    border-bottom: 2px solid white;
+    text-align: left;
+}
+.third{
+    width: auto;
+    height: fit-content;
+    background-color: whitesmoke;
+}
+.third ul{
+    display: block;
+}
+.firstli{
+    width: auto;
+    height: auto;
+    position: relative;
+    left: -50px;
+}
+.firstli ul li h1{
+    font-size: 40px;
+    width: auto;
+    padding: 15px;
+    color: rgb(80, 80, 113);
+}
+.videogif{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: -20px;
+    padding-top: 20px;
+    border-bottom: none;
+    border-right: none;
+    padding-bottom: 20px;
+}
+.fourth{
+    width: auto;
+    height: 300px;
+    background-color: white;
+}
+.fourth ul{
+    position: relative;
+    left: -20px;
+}
+.fourth ul li h1{
+    font-size: 40px;
+    width: auto;
+    font-family: cursive;
+    color: rgb(80, 80, 113);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    
+.logo{
+    left: -80px;
+}
+.left ul li h1{
+   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(89, 92, 98);
+    padding: 0px;
+    height: fit-content;
+}
+.videogif{
+    width: 400px;
+    height: 450px;
+    left: -50px;
+}
+.first{
+    height: auto;
+}
+.first ul li{
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 420px) {
+    
+    .videogif{
+        width: 320px;
+        height: 380px;
+        left: -40px;
+        border: 2px solid rgb(138, 138, 151);
+        border-top: none;
+    }
+    .rolla{
+        width: auto;
+        height: 500px;
+    }
+    .secondli{
+        width: auto;
+    }
+    .nav-toggler{
+        width: 30px;
+        background-color: #fff;
+        position: relative;
+        right: -25px;
+    }
+    .nav-toggler span{
+        background-color: #2d2d2d;
+    }
+    .nav-toggler span::before,
+    .nav-toggler span::after{
+        background-color: #2d2d2d;
+    }
+    .first{
+        height: auto;
+    }
+    .first ul li{
+        height: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 412px) {
+  
+
+    .videogif{
+        width: 320px;
+        height: 340px;
+        left: -50px;
+        border: 2px solid rgb(138, 138, 151);
+        border-top: none;
+    }
+    .first{
+        height: auto;
+    }
+    .first ul li{
+        height: auto;
+    }
+    .rolla{
+        width: auto;
+        height: 500px;
+    }
+    .secondli{
+        width: auto;
+    }
+
+    .nav-toggler{
+        width: 30px;
+        background-color: #fff;
+        position: relative;
+        right: -25px;
+    }
+    .nav-toggler span{
+        background-color: #2d2d2d;
+    }
+    .nav-toggler span::before,
+    .nav-toggler span::after{
+        background-color: #2d2d2d;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 360px) {
+  
+.navbar{
+    width: auto;
+}
+nav{
+    width: auto;
+}
+.standingpic{
+  
+    height: 360px;
+}
+.first{
+    height: auto;
+}
+.first ul li{
+    height: auto;
+}
+    .videogif{
+        width: 270px;
+        height: 270px;
+        left: -50px;
+        border: none;
+        border-top: none;
+    }
+    .rolla{
+        width: auto;
+        height: 500px;
+    }
+    .secondli{
+        width: auto;
+    }
+    .second ul li p{
+        font-size: 16px;
+        color: rgb(80, 80, 113);
+        padding: 20px;
+        padding-top: 15px;
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .nav-toggler{
+        width: 30px;
+        background-color: #fff;
+        position: relative;
+        right: -30px;
+    }
+    .nav-toggler span{
+        background-color: #2d2d2d;
+    }
+    .nav-toggler span::before,
+    .nav-toggler span::after{
+        background-color: #2d2d2d;
+    }
+    .footer ul li a{
+        color: white;
+        text-decoration: none;
+        border: 2px solid blue;
+        padding: 15px;
+        border-radius: 15px;
+        position: relative;
+        top: 30px;
+        left: -15px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 300px) {
+  
+
+.standingpic{
+    width: 220px;
+    height: 320px;
+}
+.first{
+    height: 700px;
+}
+.left ul{
+    height: 250px;
+    width: auto;
+}
+.left ul li{
+    height: 180px;
+    width: auto;
+}
+.left ul li h1{
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(89, 92, 98);
+    padding: 2px;
+    width: auto;
+    line-height: 30px;
+}
+    .videogif{
+        width: 220px;
+        height: 240px;
+        left: -50px;
+       
+        border-top: none;
+    }
+    .rolla{
+        width: auto;
+        height: 500px;
+    }
+    .secondli{
+        width: auto;
+    }
+    .firstli ul li p{
+        font-size: 16px;
+        color: rgb(80, 80, 113);
+        padding: 20px;
+        padding-top: 15px;
+        text-align: left;
+        position: relative;
+        left: 40px;
+
+    }
+    .nav-toggler{
+        width: 30px;
+        background-color: #fff;
+        position: relative;
+        right: -25px;
+    }
+    .nav-toggler span{
+        background-color: #2d2d2d;
+    }
+    .nav-toggler span::before,
+    .nav-toggler span::after{
+        background-color: #2d2d2d;
+    }
+    .logo{
+        position: relative;
+        left: -70px;
+    }
+    .firstli ul li h1{
+        font-size: 30px;
+        padding: 11px;
+    
+        color: rgb(80, 80, 113);
+    }
+    .firstli ul li p{
+        font-size: 18px;
+        padding: 5px;
+        position: relative;
+        left: 5px;
+        width: auto;
+        word-spacing: 5px;
+        color: rgb(80, 80, 113);
+    }
+    .fourth ul li h1{
+        font-size: 30px;
+        font-family: cursive;
+        color: rgb(80, 80, 113);
+    }
+    .footer ul li a{
+        color: white;
+        text-decoration: none;
+        border: 2px solid blue;
+        padding: 15px;
+        border-radius: 15px;
+        position: relative;
+        top: 30px;
+        left: -15px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 240px) {
+
+
+
+    .standingpic{
+        width: 200px;
+        height: 240px;
+    }
+    .first{
+        height: 600px;
+    }
+    .left ul{
+        height: 250px;
+        width: auto;
+    }
+    .left ul li{
+        height: 180px;
+        width: auto;
+    }
+    .left ul li h1{
+        font-size: 25px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(89, 92, 98);
+        padding: 2px;
+        width: auto;
+        line-height: 30px;
+    }
+        .videogif{
+            width: 160px;
+            height: 180px;
+            left: -50px;
+           
+            border-top: none;
+        }
+        .rolla{
+            width: auto;
+            height: 500px;
+        }
+        .secondli{
+            width: auto;
+        }
+        .second ul li h1{
+            font-size: 18px;
+        }
+        .second ul li p{
+            font-size: 14px;
+            color: rgb(80, 80, 113);
+            padding: 20px;
+            padding-top: 5px;
+            text-align: left;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .footer ul li a{
+            color: white;
+            text-decoration: none;
+            border: 2px solid blue;
+            padding: 10px;
+            border-radius: 15px;
+            position: relative;
+            top: 30px;
+        }
+        .social {
+            display: flex;
+            width: auto;
+        }
+        .socialpic{
+            width: 30px;
+            height: 30px;
+        }
+        .fourth ul li h1{
+            font-size: 30px;
+            font-family: cursive;
+            color: rgb(80, 80, 113);
+        }
+        .firstli ul li a{
+            font-size: 12px;
+        }
+        .firstli ul li h1{
+            font-size: 30px;
+            padding: 15px;
+            width: 200px;
+            position: relative;
+            left: -25px;
+            text-align: center;
+            color: rgb(80, 80, 113);
+        }
+        .firstli ul li p{
+            font-size: 15px;
+            padding: 5px;
+            width: 200px;
+            position: relative;
+            left: -15px;
+    text-align: center;
+            color: rgb(80, 80, 113);
+        }
+        .footer ul li{
+            position: relative;
+            left: -20px;
+        }
+        .left ul li a{
+            font-size: 10px;
+        }
+        .first ul li{
+            text-align: left;
+            font-size: 15px;
+        }
+        .second h1{
+            font-size: 35px;
+            width: auto;
+        }
+        .nav-toggler{
+            width: 30px;
+            background-color: #fff;
+            position: relative;
+            right: -25px;
+        }
+        .nav-toggler span{
+            background-color: #2d2d2d;
+        }
+        .nav-toggler span::before,
+        .nav-toggler span::after{
+            background-color: #2d2d2d;
+        }
+        .logo{
+            width: 40px;
+            height: 40px;
+            position: relative;
+            left: -60px;
+        }
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
